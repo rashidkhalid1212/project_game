@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* background-color: Black; */
+    /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+    /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+    /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    height: 85vh;  
+    width: 80vw;    
+    background-color: rgb(42, 25, 117);
+    border-radius: 10px;
+}
+
+
+.ball1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(175, 56, 173);
+    position: fixed;
+    top:40vh;
+    left: 38vw;
+    
+}
+
+.paddle{
+    height: 120px;
+    width: 15px;
+    background-color: black;
+    position: fixed;
+    border-radius: 12px;
+}
+
+.left{
+    top : 40vh;
+    left: 12vw;
+}
+.right{
+    top : 40vh;
+    right: 12vw;
+}
