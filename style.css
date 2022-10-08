@@ -39,9 +39,9 @@ body{
 .paddle{
     height: 120px;
     width: 15px;
-    background-color: black;
+    background-color: #b465da;
     position: fixed;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 .left{
